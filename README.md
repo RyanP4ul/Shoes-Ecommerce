@@ -1,54 +1,80 @@
-# React + TypeScript + Vite
+# E-Commerce Shoes Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/5df20355-7467-4ffb-bb0f-11c575f5be33)
+![Uploading image.png…]()
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+This is a modern e-commerce web application for showcasing and selling shoes. The project is built using React, TypeScript, and Vite for a fast and efficient development experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Project Structure
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+The project is organized as follows:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Key Directories in `src/`
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **`assets/`**: Contains static assets like images and SVGs.
+  - `react.svg`
+  - `images/`
+- **`components/`**: Reusable UI components such as `Header` and `Footer`.
+- **`constants/`**: Stores application-wide constants.
+- **`contexts/`**: Context providers for managing global state.
+- **`features/`**: Feature-specific modules for the application.
+- **`hooks/`**: Custom React hooks.
+- **`pages/`**: Page components for routing.
+- **`services/`**: API service calls and integrations.
+- **`styles/`**: Global and shared styles.
+- **`types/`**: TypeScript type definitions.
+- **`utils/`**: Utility functions.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone <repository-url>
+   cd ecommerce-shoes
+   
+
+### Key Directories in `src/`
+
+- **`assets/`**: Contains static assets like images and SVGs.
+  - `react.svg`
+  - `images/`
+- **`components/`**: Reusable UI components such as `Header` and `Footer`.
+- **`constants/`**: Stores application-wide constants.
+- **`contexts/`**: Context providers for managing global state.
+- **`features/`**: Feature-specific modules for the application.
+- **`hooks/`**: Custom React hooks.
+- **`pages/`**: Page components for routing.
+- **`services/`**: API service calls and integrations.
+- **`styles/`**: Global and shared styles.
+- **`types/`**: TypeScript type definitions.
+- **`utils/`**: Utility functions.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone <repository-url>
+   cd ecommerce-shoes
