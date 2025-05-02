@@ -62,18 +62,6 @@ Ensure you have the following installed:
 - **`types/`**: TypeScript type definitions.
 - **`utils/`**: Utility functions.
 
-## Getting Started
-
-### Prerequisites
-
-Ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (LTS version recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
-
-1. Clone the repository:
 
    ```sh
    git clone <repository-url>
